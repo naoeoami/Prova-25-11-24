@@ -1,0 +1,13 @@
+### Requisação para a raiz da aplicação
+GET http://localhost:5085
+
+### Listar produtos
+GET http://localhost:5085/api/categoria/listar
+
+### Cadastrar produto
+POST http://localhost:5085/api/categoria/cadastrar
+Content-Type: application/json
+
+{
+    "nome" : "Roupas"
+}
